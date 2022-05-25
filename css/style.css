@@ -46,14 +46,10 @@ a{
 /*************************************************
     NAV BAR
  *************************************************/
-div.main-container.d-flex{
-
-}
-
 
  .nav-bar{
     width: 220px;
-    height: calc(100vh - 80px);
+    height: calc(100vh - 90px);
     background-color: black;
     
 }
@@ -72,16 +68,31 @@ div.main-container.d-flex{
  *************************************************/
 div.main-content{
     background-color: #141922;
-    height: calc(100vh - 80px);
+    height: calc(100vh - 90px);
     width: 100%;
     overflow: auto;
 }
 
+div.content-sect{
+    margin-top: 90px;
+}
+
+
+
+
+/* la top bar  */
+ div.top-bar{
+    width: calc(100vw - 220px);
+    background-color: rgba(14, 14, 14, 0.6);
+
+}
+
 .top-bar{
-    
     position: fixed;
     top: 0;
     right: 0;
+    width: 100%;
+    justify-content: flex-end;
     
 }
 
@@ -93,18 +104,9 @@ div.main-content{
     background-color: #0E0E0E;
     color: white;
     margin: 25px 25px;
+    opacity: 1;
 }
 
-
-
-/* la top bar  */
- div.top-bar{
-    width: calc(100% - 220px);
-    background-color: #0E0E0E;
-    opacity: 0.5;
-
-
-}
 
 
 
@@ -187,8 +189,68 @@ div.main-content{
 
 footer{
     width: 100%;
-    height: 80px;
+    height: 90px;
     background-color: #2d333b;
+    justify-content: space-between;
+}
+
+/* left footer  */
+
+
+footer .ft-left{
+    height: 100%;
+    align-items: center;
+
+    
+}
+
+.ft-left-lf{
+    height: 45px;
+    margin: 0 15px;
+    
+}
+
+.ft-lf-img{
+    height: 100%;
+    background-image: url('../spotify/img/sinister.jpeg');
+    background-size: cover;
+    width: 45px;
+
+}
+
+.ft-lt-text{
+    margin-left: 10px;
+    color: white;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.ft-lt-text span{
+    font-size: 10px;
+    color: rgb(163, 163, 163);
+}
+
+/* --  */
+
+.ft-left-rg{
+    margin: 35px 25px;
+}
+
+div.ft-lf-icon i{
+    margin-right: 10px;
+    color: rgb(163, 163, 163);
+
+}
+
+
+
+/* central footer  */
+
+footer .ft-cntr{
+    background-color: rgb(255, 51, 0);
+    height: 100%;
+    width: 100px;
+
 }
 
 
@@ -196,6 +258,39 @@ footer{
 
 
 
+/* right footer  */
+
+footer .ft-rght{
+    height: 100%;
+    
+
+}
+
+div.ft-rght-rt{
+    height: 100%;
+    align-items: center;
+}
+
+div.ft-rght-icon i{
+    color: white;
+    margin-right: 10px;
+    font-size: 14px;
+}
+
+div.ft-rght-bar{
+    height: 5px;
+    width: 150px;
+    border-radius: 10px;
+    background-color: rgb(87, 84, 84);
+    margin-right: 10px;
+}
+
+div.ft-rght-bar .rght-bar-xs{
+    height: 5px;
+    width: 40px;
+    border-radius: 10px;
+    background-color: white;
+}
 
 
 
