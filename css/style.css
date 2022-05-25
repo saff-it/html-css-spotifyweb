@@ -21,6 +21,14 @@ body{
     display: flex;
 }
 
+.margin-pl{
+    margin: 20px 0 20px 20px;
+}
+
+h2{
+    color: white;
+}
+
 
 
 
@@ -61,6 +69,7 @@ div.main-content{
     background-color: #141922;
     height: calc(100vh - 80px);
     width: 100%;
+    overflow: auto;
 
 }
 
@@ -96,20 +105,12 @@ div.main-content{
 
 /* recently played  */
 
-.recent-pl{
-    margin-left: 20px;
-}
-
-.recent-pl .title h2{
-    color: white;
-}
-
 .music-cont{
     justify-content: space-between;
 }
 
 .music-box{
-    width: (100% / 6 - 30px);
+    width: calc(100% / 6 - 30px);
     margin: 20px 15px 20px 0;
 }
 
@@ -128,6 +129,20 @@ div.main-content{
     color: rgb(163, 163, 163);
 }
 
+
+
+/* creato per J D */
+.user-pl .title span{
+    color: rgb(163, 163, 163);
+    font-size: 12px;
+}
+
+
+/* Artisti popolari */
+.popular-pl .title span{
+    color: rgb(163, 163, 163);
+    font-size: 12px;
+}
 
 
 
