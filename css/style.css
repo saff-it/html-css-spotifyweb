@@ -199,6 +199,7 @@ footer{
 
 footer .ft-left{
     height: 100%;
+    width: 25%;
     align-items: center;
 
     
@@ -247,13 +248,45 @@ div.ft-lf-icon i{
 /* central footer  */
 
 footer .ft-cntr{
-    background-color: rgb(255, 51, 0);
-    height: 100%;
-    width: 100px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
 
 }
 
 
+div.ft-cntr-bar{
+    height: 5px;
+    width: 70%;
+    border-radius: 10px;
+    background-color: rgb(87, 84, 84);
+    margin: 0 10px;
+    display: inline-block;
+}
+
+div.ft-cntr-btm{
+    width: 50%;
+    margin: 0 auto 10px auto;
+}
+
+div.ft-cntr-bar .cntr-bar-xs{
+    height: 5px;
+    width: 40px;
+    border-radius: 10px;
+    background-color: white;
+}
+
+div.ft-cntr-top i{
+    font-size: 20px;
+    color: white;
+    margin: 15px 12px;
+}
+
+div.ft-cntr-top i.large{
+    font-size: 30px;
+
+}
 
 
 
@@ -262,13 +295,14 @@ footer .ft-cntr{
 
 footer .ft-rght{
     height: 100%;
-    
+    width: 25%;
 
 }
 
 div.ft-rght-rt{
     height: 100%;
     align-items: center;
+    justify-content: flex-end;
 }
 
 div.ft-rght-icon i{
@@ -279,7 +313,7 @@ div.ft-rght-icon i{
 
 div.ft-rght-bar{
     height: 5px;
-    width: 150px;
+    width: 30%;
     border-radius: 10px;
     background-color: rgb(87, 84, 84);
     margin-right: 10px;
@@ -287,7 +321,7 @@ div.ft-rght-bar{
 
 div.ft-rght-bar .rght-bar-xs{
     height: 5px;
-    width: 40px;
+    width: 25%;
     border-radius: 10px;
     background-color: white;
 }
