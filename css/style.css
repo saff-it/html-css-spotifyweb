@@ -29,6 +29,11 @@ h2{
     color: white;
 }
 
+a{
+    text-decoration: none;
+    color: white;
+}
+
 
 
 
@@ -70,16 +75,35 @@ div.main-content{
     height: calc(100vh - 80px);
     width: 100%;
     overflow: auto;
-
 }
+
+.top-bar{
+    
+    position: fixed;
+    top: 0;
+    right: 0;
+    
+}
+
+
+.top-bar button{
+    border-color: white;
+    border-radius: 20px;
+    padding: 10px 30px;
+    background-color: #0E0E0E;
+    color: white;
+    margin: 25px 25px;
+}
+
 
 
 /* la top bar  */
  div.top-bar{
-    height: 70px;
-    width: 100%;
+    width: calc(100% - 220px);
     background-color: #0E0E0E;
     opacity: 0.5;
+
+
 }
 
 
