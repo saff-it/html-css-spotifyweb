@@ -37,12 +37,6 @@ a{
 
 
 
-
-
-
-
-
-
 /*************************************************
     NAV BAR
  *************************************************/
@@ -61,6 +55,8 @@ a{
 
 
 /* logo  */
+
+
 .nav-container .logo{
     height: 40px;
     margin: 30px 0;
@@ -77,9 +73,9 @@ a{
 
 /* icon list  */
 
+
 .nav-list-icon{
-    flex-direction: column;
-    
+    flex-direction: column
 }
 
 .nav-list-icon i{
@@ -87,9 +83,6 @@ a{
     font-size: 20px;
     color: white;
  }
-
-
-
 
 .nav-list-txt ul{
     color: white;
@@ -105,6 +98,7 @@ a{
 
 /* playlist section  */
 
+
 div.playlist{
     color: rgb(163, 163, 163);
     margin-top: 20px;
@@ -118,7 +112,6 @@ div.playlist h3{
 div.playlist .pl-create{
     align-items: center;
     margin: 10px 0;
-
 }
 
 div.playlist .pl-create i{
@@ -137,11 +130,12 @@ div.playlist .pl-create i{
 
 
 /* installa app botton nav  */
+
+
 div.app-inst-bottom{
     position: absolute;
     bottom: 95px;
 }
-
 
 div.install-btn{
     color: rgb(163, 163, 163);
@@ -180,15 +174,6 @@ div.avatar h3{
 
 
 
-
-
-
-
-
-
-
-
-
 /*************************************************
     MAIN CONTENT
  *************************************************/
@@ -204,13 +189,12 @@ div.content-sect{
 }
 
 
-
-
 /* la top bar  */
+
+
  div.top-bar{
     width: calc(100vw - 220px);
     background-color: rgba(14, 14, 14, 0.6);
-
 }
 
 .top-bar{
@@ -219,7 +203,6 @@ div.content-sect{
     right: 0;
     width: 100%;
     justify-content: flex-end;
-    
 }
 
 
@@ -234,10 +217,8 @@ div.content-sect{
 }
 
 
-
-
-
 /* nav della sezione contenuti  */
+
 
 .content-nav nav ul{
     justify-content: center;
@@ -245,7 +226,8 @@ div.content-sect{
 
 .content-nav nav ul li{
     list-style: none;
-    margin: 20px 15px;
+    padding: 20px;
+    
 }
 
 .content-nav nav ul li a{
@@ -254,8 +236,8 @@ div.content-sect{
 }
 
 
-
 /* recently played  */
+
 
 .music-cont{
     justify-content: space-between;
@@ -282,8 +264,8 @@ div.content-sect{
 }
 
 
-
 /* creato per J D */
+
 
 .user-pl .title span{
     color: rgb(163, 163, 163);
@@ -303,14 +285,6 @@ div.content-sect{
 
 
 
-
-
-
-
-
-
-
-
 /*************************************************
     FOOTER
  *************************************************/
@@ -322,6 +296,7 @@ footer{
     justify-content: space-between;
 }
 
+
 /* left footer  */
 
 
@@ -329,14 +304,11 @@ footer .ft-left{
     height: 100%;
     width: 25%;
     align-items: center;
-
-    
 }
 
 .ft-left-lf{
     height: 45px;
     margin: 0 15px;
-    
 }
 
 .ft-lf-img{
@@ -344,7 +316,6 @@ footer .ft-left{
     background-image: url('../spotify/img/sinister.jpeg');
     background-size: cover;
     width: 45px;
-
 }
 
 .ft-lt-text{
@@ -368,19 +339,17 @@ footer .ft-left{
 div.ft-lf-icon i{
     margin-right: 10px;
     color: rgb(163, 163, 163);
-
 }
 
 
-
 /* central footer  */
+
 
 footer .ft-cntr{
     flex-direction: column;
     justify-content: center;
     align-items: center;
     width: 50%;
-
 }
 
 
@@ -398,8 +367,6 @@ div.ft-cntr-btm{
     margin-bottom: 10px;
     justify-content: space-around;
     align-items: center;
-
-
 }
 
 div.ft-cntr-btm span{
@@ -426,14 +393,12 @@ div.ft-cntr-top i.large{
 }
 
 
-
-
 /* right footer  */
+
 
 footer .ft-rght{
     height: 100%;
     width: 25%;
-
 }
 
 div.ft-rght-rt{
@@ -467,6 +432,46 @@ div.ft-rght-bar .rght-bar-xs{
 
 
 
+/*************************************************
+    RESPONSIVE
+ *************************************************/
+
+ /* FINO a
+ @media screen and (max-width: 479px) {
+     
+ }
+
+ A PARTIRE DA
+ @media screen and (min-width: 479px) {
+     
+ } */
 
 
+
+ @media all and (max-width: 878px) {
+    .content-nav nav ul{
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    
+    .content-nav nav ul li{
+        width: calc(100% / 5);
+        
+        
+    }
+}
+
+
+
+
+@media all and (max-width: 639) {
+     
+}
+
+
+
+
+@media all and (max-width: 552) {
+     
+}
 
