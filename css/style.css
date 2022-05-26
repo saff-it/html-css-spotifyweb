@@ -222,6 +222,7 @@ div.content-sect{
 
 .content-nav nav ul{
     justify-content: center;
+    font-size: 12px;
 }
 
 .content-nav nav ul li{
@@ -454,11 +455,10 @@ div.ft-rght-bar .rght-bar-xs{
     
     /* navigatore del main  */
     .content-nav nav ul{
-        
         flex-wrap: wrap;
     }
     
-   
+
 
     /* playlist quadrati  */
     .music-cont{
@@ -476,7 +476,7 @@ div.ft-rght-bar .rght-bar-xs{
 
 
 
-@media all and (max-width: 639) {
+@media all and (max-width: 639px) {
     
     .music-box{
         width: calc(100% / 2 - 12px);
