@@ -119,11 +119,12 @@ div.playlist .pl-create i{
     margin-right: 10px;
 }
 
-.playlist div ul{
+
+div.vert-hgt ul{
     list-style: none;
 }
 
-.playlist div ul li{
+div.vert-hgt ul li{
     font-size: 12px;
     margin-bottom: 18px;
 }
@@ -533,4 +534,13 @@ div.ft-rght-bar .rght-bar-xs{
     }
 
 }
+
+
+@media all and (max-height: 660px) {
+    div.vert-hgt{
+        height: calc(100vh - 90px - 66px - 40px - 17px - 92px - 40px - 110px);
+        overflow-y: auto;
+    }
+}
+
 
