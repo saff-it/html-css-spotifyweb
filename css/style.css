@@ -132,10 +132,13 @@ div.vert-hgt ul li{
 
 /* installa app botton nav  */
 
+div.relative{
+    position: relative;
+}
 
 div.app-inst-bottom{
     position: absolute;
-    bottom: 95px;
+    bottom: 0;
 }
 
 div.install-btn{
@@ -541,6 +544,11 @@ div.ft-rght-bar .rght-bar-xs{
         height: calc(100vh - 90px - 66px - 40px - 17px - 92px - 40px - 110px);
         overflow-y: auto;
     }
+}
+
+@media all and (max-height: 575) {
+    nav.main-nav{
+        min-height: 575px;
 }
 
 
