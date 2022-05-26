@@ -228,11 +228,13 @@ div.content-sect{
     list-style: none;
     padding: 20px;
     
+    
 }
 
 .content-nav nav ul li a{
     text-decoration: none;
     color: rgb(163, 163, 163);
+    
 }
 
 
@@ -449,23 +451,39 @@ div.ft-rght-bar .rght-bar-xs{
 
 
  @media all and (max-width: 878px) {
+    
+    /* navigatore del main  */
     .content-nav nav ul{
-        justify-content: center;
+        
         flex-wrap: wrap;
     }
     
-    .content-nav nav ul li{
-        width: calc(100% / 5);
-        
+   
+
+    /* playlist quadrati  */
+    .music-cont{
+        justify-content: flex-start;
+        flex-wrap: wrap;
+    }
+
+    .music-box{
+        width: calc(100% / 4 - 12px);
         
     }
+
 }
 
 
 
 
 @media all and (max-width: 639) {
-     
+    
+    .music-box{
+        width: calc(100% / 2 - 12px);
+        
+    }
+
+
 }
 
 
@@ -473,5 +491,7 @@ div.ft-rght-bar .rght-bar-xs{
 
 @media all and (max-width: 552) {
      
+
+
 }
 
