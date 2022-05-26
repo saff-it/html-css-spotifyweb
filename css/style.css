@@ -543,7 +543,7 @@ div.ft-rght-bar .rght-bar-xs{
 
 
 
-@media all and (max-height: 800px) {
+@media all and (max-height: 2000px) {
     div.vert-hgt{
         height: calc(100vh - 90px - 66px - 40px - 17px - 92px - 40px - 110px);
         overflow-y: auto;
