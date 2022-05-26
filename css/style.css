@@ -47,7 +47,7 @@ a{
     NAV BAR
  *************************************************/
 
- .nav-bar{
+ nav.main-nav{
     width: 220px;
     height: calc(100vh - 90px);
     background-color: black;
@@ -69,7 +69,7 @@ a{
 div.main-content{
     background-color: #141922;
     height: calc(100vh - 90px);
-    width: 100%;
+    width: calc(100% - 220px);
     overflow: auto;
 }
 
@@ -158,6 +158,7 @@ div.content-sect{
 
 
 /* creato per J D */
+
 .user-pl .title span{
     color: rgb(163, 163, 163);
     font-size: 12px;
@@ -267,7 +268,16 @@ div.ft-cntr-bar{
 
 div.ft-cntr-btm{
     width: 50%;
-    margin: 0 auto 10px auto;
+    margin-bottom: 10px;
+    justify-content: space-around;
+    align-items: center;
+
+
+}
+
+div.ft-cntr-btm span{
+    color: white;
+    font-size: 12px;
 }
 
 div.ft-cntr-bar .cntr-bar-xs{
