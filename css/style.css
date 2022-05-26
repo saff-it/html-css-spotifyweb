@@ -54,6 +54,132 @@ a{
     
 }
 
+.nav-container{
+    flex-direction: column;
+    margin: 0 20px;
+}
+
+
+/* logo  */
+.nav-container .logo{
+    height: 40px;
+    margin: 30px 0;
+}
+
+.nav-container .logo img{
+    height: 100%;
+}
+
+.nav-container .logo img.hidden{
+    display: none;
+}
+
+
+/* icon list  */
+
+.nav-list-icon{
+    flex-direction: column;
+    
+}
+
+.nav-list-icon i{
+    margin: 0 8px 10px 0;
+    font-size: 20px;
+    color: white;
+ }
+
+
+
+
+.nav-list-txt ul{
+    color: white;
+    list-style: none;
+    font-size: 12px;
+    margin-top: 3px;
+}
+
+.nav-list-txt ul li{
+   margin-bottom: 15px;
+}
+
+
+/* playlist section  */
+
+div.playlist{
+    color: rgb(163, 163, 163);
+    margin-top: 20px;
+}
+
+div.playlist h3{
+    color: white;
+    font-size: 14px;
+}
+
+div.playlist .pl-create{
+    align-items: center;
+    margin: 10px 0;
+
+}
+
+div.playlist .pl-create i{
+    font-size: 40px;
+    margin-right: 10px;
+}
+
+.playlist div ul{
+    list-style: none;
+}
+
+.playlist div ul li{
+    font-size: 12px;
+    margin-bottom: 18px;
+}
+
+
+/* installa app botton nav  */
+div.app-inst-bottom{
+    position: absolute;
+    bottom: 95px;
+}
+
+
+div.install-btn{
+    color: rgb(163, 163, 163);
+    font-size: 12px;
+}
+
+div.install-btn i{
+    margin-right: 5px;
+}
+
+div.line{
+    width: 180px;
+    height: 1px;
+    background-color: rgb(163, 163, 163);
+    margin: 10px 0 15px 0;
+}
+
+div.avatar{
+    align-items: center;
+}
+
+div.avatar div{
+    height: 25px;
+    width: 25px;
+    background-color: #2d333b;
+    background-image: url('../spotify/img/profile.svg');
+    background-size: cover;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+div.avatar h3{
+    color: white;
+    font-size: 14px;
+}
+
+
+
 
 
 
@@ -136,8 +262,8 @@ div.content-sect{
 }
 
 .music-box{
-    width: calc(100% / 6 - 30px);
-    margin: 20px 15px 20px 0;
+    width: calc(100% / 6 - 12px);
+    margin: 6px;
 }
 
 .music-box img{
@@ -162,6 +288,7 @@ div.content-sect{
 .user-pl .title span{
     color: rgb(163, 163, 163);
     font-size: 12px;
+    margin: 40px 0 15px 0;
 }
 
 
