@@ -142,6 +142,7 @@ div.vert-hgt ul li{
 div.app-inst-bottom{
     position: relative;
     bottom: 0;
+    margin-left: 16px;
 }
 
 div.install-btn{
@@ -507,11 +508,7 @@ div.ft-rght-bar .rght-bar-xs{
         margin-left: 2px;
     }
 
-    nav.main-nav{
-        width: 50px;
-        display: flex;
-        justify-content: center;
-    }
+    
 
     div.main-content{
         width: calc(100% - 50px);
@@ -527,7 +524,7 @@ div.ft-rght-bar .rght-bar-xs{
 
     .nav-list-icon{
         align-items: center;
-        margin: 10px 0 0 6px;
+        margin: 10px 0 0 12px;
     }
 
     div.install-btn{
@@ -538,6 +535,25 @@ div.ft-rght-bar .rght-bar-xs{
         margin: 0 0 5px 5px;
 
     }
+
+    nav.main-nav{
+        width: 50px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .nav-container{
+        height: calc(100% - Hpx);
+        min-height: 400px;
+        margin: 0;
+    }
+
+    div.app-inst-bottom{
+        height: Hpx;
+        margin-top: auto;
+        margin-left: 6px;
+    }
+
 
 }
 
@@ -551,6 +567,12 @@ div.ft-rght-bar .rght-bar-xs{
 
 
     }
+}
+
+
+@media all and (max-width: 552) and (max-height: 100){
+    div.install-btn: margin-top: 100px;
+
 }
 
 
