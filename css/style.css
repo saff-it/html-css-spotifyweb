@@ -224,6 +224,10 @@ div.content-sect{
     opacity: 1;
 }
 
+.top-bar button:hover{
+    transform: scale(1.1);
+}
+
 
 /* nav della sezione contenuti  */
 
@@ -246,6 +250,9 @@ div.content-sect{
     
 }
 
+.content-nav a:hover{
+    color: white;
+}
 
 /* recently played  */
 
@@ -258,12 +265,12 @@ div.content-sect{
     width: calc(100% / 6 - 12px);
     margin: 6px;
     position: relative;
+    
 }
 
 div.box-img{
     position: relative;
-    background-color: rgba(0, 0, 0, 0.3);
-    opacity: 1;
+    
 }
 
 .box-img i{
@@ -273,20 +280,17 @@ div.box-img{
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
-}
-
-.box-img:hover img{
-    opacity: 0.5;
-    
-}    
-
-
-.box-img:hover i{
-    display: block;
-}
-
-.music-box i{
     display: none;
+}
+
+.music-box:hover img{
+    opacity: 0.7;
+    background-color: black;
+}
+
+.music-box:hover i{
+    display: block;
+    
 }
 
 .music-box img{
@@ -391,6 +395,7 @@ footer .ft-cntr{
     justify-content: center;
     align-items: center;
     width: 50%;
+    
 }
 
 
@@ -430,6 +435,7 @@ div.ft-cntr-top i{
 
 div.ft-cntr-top i.large{
     font-size: 30px;
+    text-align: center;
 
 }
 
