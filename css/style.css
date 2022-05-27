@@ -257,13 +257,43 @@ div.content-sect{
 .music-box{
     width: calc(100% / 6 - 12px);
     margin: 6px;
+    position: relative;
+}
+
+div.box-img{
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.3);
+    opacity: 1;
+}
+
+.box-img i{
+    color: white;
+    font-size: 38px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.box-img:hover img{
+    opacity: 0.5;
+    
+}    
+
+
+.box-img:hover i{
+    display: block;
+}
+
+.music-box i{
+    display: none;
 }
 
 .music-box img{
     width: 100%;
 }
 
-.music-txt{
+div.music-txt{
     text-align: center;
     color: white;
     margin-top: 15px;
